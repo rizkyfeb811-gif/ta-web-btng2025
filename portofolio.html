@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Rizky Febriani Rahmansyah</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-50 text-gray-800">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md fixed w-full z-10">
+      <div
+        class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center"
+      >
+        <h1 class="text-2xl font-bold text-indigo-600">RizkyFR</h1>
+        <ul class="hidden md:flex space-x-6">
+          <li><a href="#home" class="hover:text-indigo-600">Beranda</a></li>
+          <li>
+            <a href="#portfolio" class="hover:text-indigo-600">Portofolio</a>
+          </li>
+          <li><a href="#contact" class="hover:text-indigo-600">Kontak</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      id="home"
+      class="pt-24 pb-20 text-center bg-gradient-to-r from-indigo-500 to-blue-500 text-white"
+    >
+      <div class="max-w-3xl mx-auto">
+        <h2 class="text-4xl font-bold mb-4">
+          Halo, Saya
+          <span class="text-yellow-300">Rizky Febriani Rahmansyah</span>
+        </h2>
+        <p class="text-lg mb-6">
+          Saya mahasiswa yang tertarik dengan desain web dan pengembangan
+          aplikasi modern.
+        </p>
+        <a
+          href="#portfolio"
+          class="bg-white text-indigo-600 px-6 py-2 rounded-full font-semibold hover:bg-gray-200"
+          >Lihat Karya Saya</a
+        >
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-16 bg-gray-100">
+      <div class="max-w-6xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-10 text-indigo-600">
+          Portofolio Saya
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 px-4">
+          <!-- Card 1 -->
+          <div
+            class="bg-white rounded-xl shadow-md hover:shadow-lg transition p-5"
+          >
+            <img
+              src="c:\Users\HP\Documents\B.INDO\logo website.png"
+              alt="Proyek 1"
+              class="rounded-lg mb-4"
+            />
+            <h3 class="text-xl font-semibold">Website Toko Online</h3>
+            <p class="text-sm text-gray-600">
+              Website e-commerce sederhana dengan fitur keranjang belanja dan
+              checkout.
+            </p>
+          </div>
+          <!-- Card 2 -->
+          <div
+            class="bg-white rounded-xl shadow-md hover:shadow-lg transition p-5"
+          >
+            <img
+              src="c:\Users\HP\Documents\B.INDO\logo website.png"
+              alt="Proyek 2"
+              class="rounded-lg mb-4"
+            />
+            <h3 class="text-xl font-semibold">Aplikasi To-Do List</h3>
+            <p class="text-sm text-gray-600">
+              Aplikasi pengingat tugas berbasis web dengan fitur tambah dan
+              hapus tugas.
+            </p>
+          </div>
+          <!-- Card 3 -->
+          <div
+            class="bg-white rounded-xl shadow-md hover:shadow-lg transition p-5"
+          >
+            <img
+              src="c:\Users\HP\Documents\B.INDO\logo website.png"
+              alt="Proyek 3"
+              class="rounded-lg mb-4"
+            />
+            <h3 class="text-xl font-semibold">Landing Page Produk</h3>
+            <p class="text-sm text-gray-600">
+              Halaman promosi produk modern dengan tampilan minimalis dan
+              responsif.
+            </p>
+          </div>
+          <!-- Card 4 -->
+          <div
+            class="bg-white rounded-xl shadow-md hover:shadow-lg transition p-5"
+          >
+            <img
+              src="c:\Users\HP\Documents\B.INDO\logo website.png"
+              alt="Proyek 4"
+              class="rounded-lg mb-4"
+            />
+            <h3 class="text-xl font-semibold">Blog Pribadi</h3>
+            <p class="text-sm text-gray-600">
+              Website blog pribadi dengan fitur posting artikel dan komentar.
+            </p>
+          </div>
+          <!-- Card 5 -->
+          <div
+            class="bg-white rounded-xl shadow-md hover:shadow-lg transition p-5"
+          >
+            <img
+              src="c:\Users\HP\Documents\B.INDO\logo website.png"
+              alt="Proyek 5"
+              class="rounded-lg mb-4"
+            />
+            <h3 class="text-xl font-semibold">Dashboard Admin</h3>
+            <p class="text-sm text-gray-600">
+              Antarmuka dashboard interaktif untuk mengelola data pengguna dan
+              laporan.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16">
+      <div class="max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-8 text-indigo-600">Hubungi Saya</h2>
+        <form
+          class="max-w-md mx-auto bg-white shadow-md rounded-lg p-6 space-y-4"
+        >
+          <input
+            type="text"
+            placeholder="Nama Anda"
+            class="w-full border rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-indigo-400"
+          />
+          <input
+            type="email"
+            placeholder="Email Anda"
+            class="w-full border rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-indigo-400"
+          />
+          <textarea
+            placeholder="Pesan Anda"
+            rows="4"
+            class="w-full border rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-indigo-400"
+          ></textarea>
+          <button
+            type="submit"
+            class="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700"
+          >
+            Kirim Pesan
+          </button>
+        </form>
+        <p class="mt-6 text-gray-600">
+          atau kirim email ke
+          <span class="text-indigo-600 font-medium"
+            >rizkyfebriani578@gmail.com</span
+          >
+        </p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-indigo-600 text-white text-center py-4">
+      <p>&copy; 2025 Rizky Febriani Rahmansyah. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
